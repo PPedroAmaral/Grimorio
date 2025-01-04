@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grimório</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+
+    <div class="filtro">
+        <select id="filtro-elemento" style="text-align-last: center ;">
+            <option value="todas">******</option>
+            <option value="sangue">Sangue</option>
+            <option value="conhecimento">Conhecimento</option>
+            <option value="energia">Energia</option>
+            <option value="morte">Morte</option>
+            <option value="medo">Medo</option>
+        </select>
+        
+        <select id="filtro-circulo" style="text-align-last: center;">
+            <option value="todos">******</option>
+            <option value="1">Círculo 1</option>
+            <option value="2">Círculo 2</option>
+            <option value="3">Círculo 3</option>
+            <option value="4">Círculo 4</option>
+        </select>
+
+        <input type="text" id="pesquisa" placeholder="Pesquisar Ritual..." />
+
+        <button id="mostrar-selecionados">Aprendidos</button> 
+
+    </div>
+
+    <div class="container-rituais" id="lista-rituais"></div>
+
+    <footer class="footer">
+        <p id="poppins-regular">Feito por <a>Pedro Amaral</a></p>
+        <p class="poppins-light">Projeto para listar rituais de Ordem Paranormal RPG</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+    
+</body>
+
+</html>
