@@ -878,7 +878,7 @@
         "resistencia":"Resistência: fortitude parcial", 
         "imagem": "./assets/img/miasmaentropico.webp", 
         "discente": "Discente (+3 PE): muda o dano para 6d8 de Morte.",
-        "verdadeiro": "Verdadeiro (+7 PE): muda a duração para 3 rodadas. Um ser que inicie seu turno dentro da área sofre o dano novamente. Requer 3º círculo."
+        "verdadeiro": "Verdadeiro (+7 PE): como a versão discente, mas muda a duração para 3 rodadas. Um ser que inicie seu turno dentro da área sofre o dano novamente. Requer 3º círculo"
     },
     {
         "nome": "Milagre Ionizante", 
@@ -1262,7 +1262,7 @@
         "nome": "Transfigurar Água", 
         "elementos": ["energia"], 
         "circulo": "3",
-        "descricao": "Você canaliza Energia sobre um corpo de água, para que ele adquira movimentos e comportamentos paranormais e caóticos. Ao conjurar o ritual, escolha um dos seguintes efeitos. | Congelar: toda a água mundana na área é congelada. Seres nadando na área ficam imóveis; escapar exige gastar uma ação padrão e passar num teste de Atletismo (DT igual a do ritual). | Derreter: gelo mundano na área vira água e o ritual termina. A critério do mestre, isso pode criar terreno difícil. | Enchente: eleva o nível da água mundana na área em até 4,5m. A sua escolha, muda área para “alvo: uma embarcação”. O alvo recebe +6m em seu deslocamento pela duração do efeito. | Evaporar: toda a água e gelo mundano na área evaporam instantaneamente e o ritual termina. Qualquer ser vivo na área sofre 5d8 de dano de Energia (Fortitude reduz à metade). Criaturas de Morte sofrem o dobro desse dano. | Partir: diminui o nível de toda água mundana na área em até 4,5m. Em um corpo d'água raso, isso abre um caminho seco, que pode ser atravessado a pé. Em um corpo d'água profundo, cria um redemoinho que pode prender barcos (um teste de Pilotagem com DT igual à do ritual permite ao piloto livrar a embarcação).",
+        "descricao": "Você canaliza Energia sobre um corpo de água, para que ele adquira movimentos e comportamentos paranormais e caóticos. Ao conjurar o ritual, escolha um dos seguintes efeitos. | Congelar: toda a água mundana na área é congelada. Seres nadando na área ficam imóveis; escapar exige gastar uma ação padrão e passar num teste de Atletismo (DT igual a do ritual). | Derreter: gelo mundano na área vira água e o ritual termina. A critério do mestre, isso pode criar terreno difícil. | Enchente: eleva o nível da água mundana na área em até 4,5m. A sua escolha, muda área para “alvo: uma embarcação”. O alvo recebe +6m em seu deslocamento pela duração do efeito. | Evaporar: toda a água e gelo mundano na área evaporam instantaneamente e o ritual termina. Qualquer ser vivo na área sofre 5d8 de dano de Energia (Fortitude reduz à metade). | Partir: diminui o nível de toda água mundana na área em até 4,5m. Em um corpo d'água raso, isso abre um caminho seco, que pode ser atravessado a pé. Em um corpo d'água profundo, cria um redemoinho que pode prender barcos (um teste de Pilotagem com DT igual à do ritual permite ao piloto livrar a embarcação).",
         "execução":"Execução: padrão",
         "alcance":"Alcance: longo",
         "efeito":"Área: esfera com 30m de raio",
@@ -1290,7 +1290,7 @@
         "nome": "Transfusão Vital", 
         "elementos": ["sangue"], 
         "circulo": "2",
-        "descricao": "Você toca no alvo e transfere sua própria energia vital para ele, podendo sofrer até 30 pontos de dano de Sangue para que o alvo recupere a mesma quantidade em PV. Você não pode ficar com menos de 1 PV por causa desse ritual.",
+        "descricao": "Você toca outro ser e transfere sua própria energia vital para ele, podendo perder até 30 pontos de vida para que o alvo recupere a mesma quantidade em PV. Você não pode ficar com menos de 1 PV por causa desse ritual.",
         "execução":"Execução: padrão",
         "alcance":"Alcance: toque",
         "efeito":"Alvo: 1 ser",
